@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 
-const Earth = () => {
+
+const Money = () => {
   return (
-    <div>Earth</div>
+    <div>Money</div>
   )
 }
 
-export default Earth
+export default Money

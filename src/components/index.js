@@ -1,8 +1,7 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { EarthCanvas, PiggyCanvas, MoneyCanvas, GraphCanvas } from './canvas';
 import Bank from './Bank';
 import Navbar from './Navbar';
 import About from './About';
-import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
@@ -12,13 +11,12 @@ export {
   Bank,
   Navbar,
   About,
-  Tech,
   Experience,
   Works,
   Feedbacks,
   Contact,
   EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas
+  PiggyCanvas, 
+  MoneyCanvas, 
+  GraphCanvas
 }
