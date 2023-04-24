@@ -9,7 +9,7 @@ import CanvasLoader from "../Loader";
 
 const Graphs = () => {
 
-  const graph = useGLTF("../../desktop_pc/scene.gltf");
+  const graph = useGLTF("../../public/desktop_pc/scene.gltf");
   console.log(graph);
 
   return (
