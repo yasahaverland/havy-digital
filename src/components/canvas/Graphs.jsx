@@ -41,8 +41,8 @@ const GraphsCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2} // limit camera to looking straight down
-          minPolarAngle={0} // limit camera to looking straight up
+          maxPolarAngle={Math.PI / 2} // da um limite pra "camera" não conseguir olhar completamente para baixo
+          minPolarAngle={0} // limita a "camera" de olhar completamente pra cima
           />
           <Graphs />
       </Suspense>
