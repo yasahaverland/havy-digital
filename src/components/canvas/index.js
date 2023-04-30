@@ -1,6 +1,6 @@
 import PiggyCanvas from "./Piggy";
 import EarthCanvas from "./Earth";
 import MoneyCanvas from "./Money";
-import GraphCanvas from "./Graphs";
+import GraphsCanvas from "./Graphs";
 
-export { PiggyCanvas, EarthCanvas, MoneyCanvas, GraphCanvas };
+export { PiggyCanvas, EarthCanvas, MoneyCanvas, GraphsCanvas };

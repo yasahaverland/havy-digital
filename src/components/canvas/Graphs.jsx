@@ -9,44 +9,38 @@ import CanvasLoader from "../Loader";
 
 const Graphs = () => {
 
-  const graph = useGLTF("../../public/desktop_pc/scene.gltf");
+  const graph = useGLTF("/statistic_charts_with_arrow/scene.gltf");
   console.log(graph);
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
-      <pointLight intensity={1} />
+      <hemisphereLight intensity={1} groundColor='black' />
+      <pointLight intensity={3} />
       <primitive 
         object={graph.scene}
-        scale={0.75}
-        position={[0,0,0]} 
+        scale={1}
+        position={[0.5,-3,0]} 
       />
     </mesh>
   )
 }
 
 
-const GraphCanvas = () => {
+const GraphsCanvas = () => {
   return (
-    <Canvas
-      frameloop='demand'
-      shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }} 
-    >
+    <Canvas height="100vh" width="100vw" frameloop='demand' shadows camera={{ position: [20, 3, 5], fov: 25 }} gl={{ preserveDrawingBuffer: true }}>
+
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 2} // limit camera to looking straight down
+          minPolarAngle={0} // limit camera to looking straight up
           />
           <Graphs />
       </Suspense>
       <Preload all />
-
     </Canvas>
-    
   )
 }
 
-export default GraphCanvas;
+export default GraphsCanvas;

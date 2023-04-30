@@ -2,7 +2,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
-import { MoneyCanvas } from './canvas'
+import { GraphsCanvas } from './canvas'
 
 
 const Bank = () => {
@@ -19,6 +19,7 @@ const Bank = () => {
           <p className={`${styles.subText} mt-2 text-white-100`}>A <span className='text-[#975AB6]'>Havy Digital</span> oferece soluções bancárias inovadoras projetadas para atender às necessidades de indivíduos, pequenas empresas e grandes corporações.</p>
         </div>
       </div>
+      <GraphsCanvas />
     </section>
   )
 }
