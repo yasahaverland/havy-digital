@@ -10,12 +10,20 @@ import CanvasLoader from "../Loader";
 const Graphs = () => {
 
   const graph = useGLTF("/statistic_charts_with_arrow/scene.gltf");
-  console.log(graph);
+  // console.log(graph);
 
   return (
     <mesh>
       <hemisphereLight intensity={1} groundColor='black' />
-      <pointLight intensity={3} />
+      <pointLight intensity={2.5} />
+      <spotLight 
+        position={[-2, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={24}
+      />
       <primitive 
         object={graph.scene}
         scale={1}
