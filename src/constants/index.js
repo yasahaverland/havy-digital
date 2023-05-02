@@ -3,15 +3,15 @@ import { coorp, personal, smallbusiness, wallet, app } from "../assets";
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Nossa Empresa",
     },
     {
       id: "services",
-      title: "Services",
+      title: "Serviços",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Abra Sua Conta",
     },
   ];
 

@@ -28,8 +28,8 @@ const Graphs = ({ isMobile }) => {
       />
       <primitive 
         object={graph.scene}
-        scale={isMobile ? 0.5 : 1}
-        position={ isMobile ? [0, -4, 0] : [0.5,-3,0]} 
+        scale={isMobile ? 0.7 : 1}
+        position={ isMobile ? [0, -3, 0] : [0.5,-3,0]} 
       />
     </mesh>
   )

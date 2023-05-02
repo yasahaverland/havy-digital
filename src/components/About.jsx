@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
@@ -14,7 +15,7 @@ import { SectionWrapper } from '../hoc'
 
 const FeaturesCard = ({ index, title, icon }) => {
   return (
-    <Tilt className='xs:w-[250px] w-full'>
+    <Tilt className='xs:w-[225px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -58,8 +59,7 @@ const About = () => {
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] p-3'
-      >
-          No Heavy Digital, nos dedicamos a usar a tecnologia mais recente para oferecer aos nossos clientes a melhor experiência bancária possível. Oferecemos uma gama completa de serviços bancários, desde contas pessoais até contas corporativas internacionais, todas projetadas para serem simples, convenientes e seguras. Nosso appl permite que você gerencie suas finanças em qualquer lugar, com recursos como depósito de cheque, pagamento de contas e transferências instantâneas entre contas, tudo isso do seu celular.
+      > 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
