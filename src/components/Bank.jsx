@@ -21,9 +21,9 @@ const Bank = () => {
       </div>
       <GraphsCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-10 bottom-25 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[30px] h-[45px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2'>
             <motion.dev
               animate={{y: [0, 24, 0]}}
               transition={{
