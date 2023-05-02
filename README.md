@@ -1,5 +1,5 @@
 # Havy Digital Bank
-
+![ERD](/imgs/logodark.png)
 
 # Live Link
 Coming soon
