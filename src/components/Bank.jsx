@@ -24,7 +24,7 @@ const Bank = () => {
       <div className='absolute xs:bottom-10 bottom-25 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[30px] h-[45px] rounded-3xl border-2 border-secondary flex justify-center items-start p-2'>
-            <motion.dev
+            <motion.div
               animate={{y: [0, 24, 0]}}
               transition={{
                 duration:1.5,

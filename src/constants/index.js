@@ -1,4 +1,4 @@
-import { coorp, personal, smallbusiness } from "../assets";
+import { coorp, personal, smallbusiness, wallet, app } from "../assets";
   
   export const navLinks = [
     {
@@ -12,6 +12,17 @@ import { coorp, personal, smallbusiness } from "../assets";
     {
       id: "contact",
       title: "Contact",
+    },
+  ];
+
+  const features = [
+    {
+      title: "Carteira Digital",
+      icon: wallet,
+    },
+    {
+      title: "Nosso App",
+      icon: app,
     },
   ];
   
@@ -80,4 +91,4 @@ import { coorp, personal, smallbusiness } from "../assets";
   
   
   
-  export { services, testimonials };
+  export { services, testimonials, features };

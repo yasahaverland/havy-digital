@@ -8,6 +8,9 @@ import coorp from "./coorp.png";
 import personal from "./personal.png";
 import smallbusiness from "./smallbusiness.png";
 
+import wallet from './wallet.png'
+import app from './app.png'
+
 
 export {
   logodark,
@@ -18,4 +21,7 @@ export {
   coorp, 
   personal, 
   smallbusiness,
+  wallet,
+  app
+
 };
