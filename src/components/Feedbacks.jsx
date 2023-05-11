@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
@@ -53,4 +54,4 @@ const Feedbacks = () => {
   )
 }
 
-export default Feedbacks
+export default SectionWrapper(Feedbacks, ''  )
