@@ -54,7 +54,7 @@ const Services = () => {
     <>
       <motion.div variants={textVariant} className='p-3'>
         <p className={styles.sectionHeadText} >Nossas Contas</p>
-        <h2 className={styles.sectionSubText} >Cada uma feita sob medida para o seus objetivos</h2>
+        <h2 className={styles.sectionSubText} >Cada uma feita sob medida para os seus objetivos</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
@@ -69,4 +69,4 @@ const Services = () => {
   )
 }
 
-export default SectionWrapper(Services, 'work') 
+export default SectionWrapper(Services, 'services') 

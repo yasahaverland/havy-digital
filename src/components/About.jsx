@@ -28,15 +28,17 @@ const FeaturesCard = ({ index, title, icon }) => {
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-25 h-25 object-contain'
-        />
+        <a href='#features'>
+          <img
+            src={icon}
+            alt='web-development'
+            className='w-25 h-25 object-contain'
+          />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
+          <h3 className='text-white text-[20px] font-bold text-center'>
+            {title}
         </h3>
+        </a>
       </div>
     </motion.div>
   </Tilt>
@@ -54,12 +56,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] p-3 flex justify-center'
         >
-        Fundado em 2015, nosso banco nasceu do desejo de criar um novo tipo de instituição financeira que combinasse tecnologia de ponta com serviços bancários tradicionais. Nosso objetivo era construir um banco que atendesse a todos, de pessoas físicas a grandes corporações, e que fornecesse soluções inovadoras para a gestão financeira na era digital.
+        Fundado em 2015, nosso banco nasceu do desejo de criar um novo tipo de instituição financeira que combinasse tecnologia de ponta com serviços bancários tradicionais. Nosso objetivo era construir um banco que atendesse a todos, de pessoas físicas a grandes corporações, e que fornecesse soluções inovadoras para a gestão financeira na era digital. Oferecemos uma gama completa de serviços bancários, desde contas pessoais até contas corporativas internacionais, todas projetadas para serem simples, convenientes e seguras.
       </motion.p>
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] p-3'
       > 
+        Na Heavy Digital, acreditamos que liberdade financeira deve ser acessível a todos, independentemente da sua situação atual. É por isso que oferecemos taxas de juros competitivas e baixas taxas de serviço, para que seu dinheiro renda ainda mais. Temos o compromisso de fornecer uma experiência bancária adaptada às suas necessidades exclusivas, seja você um indivíduo procurando uma simples conta corrente ou uma corporação multinacional com necessidades financeiras complexas.
+
+        Junte-se a nós hoje e experimente o futuro do setor bancário com o Heavy Digital.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

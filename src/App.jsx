@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Services, Feedbacks, Bank, Navbar, Works, MoneyCanvas } from "./components";
+import { About, Contact, Services, Feedbacks, Bank, Navbar, MoneyCanvas, Features } from "./components";
 function App() {
 
   return (
@@ -11,8 +11,8 @@ function App() {
           <Bank />
         </div>
         <About />
+        <Features/>
         <Services />
-        <Works />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

@@ -1,9 +1,9 @@
-import { EarthCanvas, PiggyCanvas, MoneyCanvas, GraphsCanvas } from './canvas';
+import { EarthCanvas, EthereumCanvas, MoneyCanvas, GraphsCanvas } from './canvas';
 import Bank from './Bank';
 import Navbar from './Navbar';
 import About from './About';
 import Services from './Services';
-import Works from './Works';
+import Features from './Features';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 
@@ -12,11 +12,11 @@ export {
   Navbar,
   About,
   Services,
-  Works,
+  Features,
   Feedbacks,
   Contact,
   EarthCanvas, 
-  PiggyCanvas, 
+  EthereumCanvas, 
   MoneyCanvas, 
   GraphsCanvas
 }

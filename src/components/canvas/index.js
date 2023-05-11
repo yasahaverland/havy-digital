@@ -1,6 +1,6 @@
-import PiggyCanvas from "./Piggy";
+import EthereumCanvas from "./Ethereum";
 import EarthCanvas from "./Earth";
 import MoneyCanvas from "./Money";
 import GraphsCanvas from "./Graphs";
 
-export { PiggyCanvas, EarthCanvas, MoneyCanvas, GraphsCanvas };
+export { EthereumCanvas, EarthCanvas, MoneyCanvas, GraphsCanvas };
