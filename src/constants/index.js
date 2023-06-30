@@ -55,7 +55,6 @@ import { coorp, personal, smallbusiness, wallet, app } from "../assets";
       intro: "Nossa conta Havy Corporate foi projetada para atender às necessidades únicas de multinacionais",
       icon: coorp,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
       points: [
         "Nossa tecnologia inovadora e serviços financeiros especializados permitem que você administre seu dinheiro com segurança, não importa onde você esteja no mundo.",
         "Nossa conta oferece serviços avançados de gestão de tesouraria, incluindo gestão de caixa, pagamentos internacionais e ferramentas de gestão de risco.",

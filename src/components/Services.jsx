@@ -20,7 +20,7 @@ const ServicesCard = ({ service }) => (
       <div className='flex justify-center items-center w-full h-full'>
         <img
           src={service.icon}
-          alt={service.company_name}
+          alt={service.title}
           className='w-[200%] h-[200%] object-contain'
         />
       </div>
@@ -28,12 +28,6 @@ const ServicesCard = ({ service }) => (
   >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{service.title}</h3>
-        <p
-          className='text-secondary text-[16px] font-semibold'
-          style={{ margin: 0 }}
-        >
-          {service.company_name}
-        </p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
