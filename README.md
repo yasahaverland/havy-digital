@@ -2,7 +2,7 @@
 ![ERD](/imgs/logodark.png)
 
 # Live Link
-Coming soon
+https://havydigital.netlify.app/
 
 
 # About the App
