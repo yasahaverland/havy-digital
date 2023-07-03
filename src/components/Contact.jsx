@@ -30,7 +30,38 @@ const Contact = () => {
     setForm({ ...form, [name]: value })
   }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true)
+
+    emailjs.send(
+      'service_hotjw26',
+      'template_b9a6htm',
+      {
+        from_name: form.name,
+        to_name: 'Havy Digital',
+        from_email: form.email,
+        to_email: 'yasahaverland@gmail.com',
+        message: form.message,
+      },
+      'kMCfZI3FDurFoU7Hj'
+    )
+    .then(() => {
+      setLoading(false)
+      alert('Agradecemos sua mensagem. Nossos agentes entrarão em contato o mais breve possivel.')
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false)
+      console.log(error)
+
+      alert('Sinto muito. Algo deu errado, tente novamente em alguns instantes.')
+    })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
