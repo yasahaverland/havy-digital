@@ -23,6 +23,6 @@ Havy Digital é um dos meus projetos em portugues. Um app de um banco fictício 
 * Use `npm run dev` para iniciar sua aplicação;
 * É importante observar que, como estou usando uma versão mais antiga do React, você precisa adicionar `--lagacy-peer-deps` antes do package que deseja instalar.
 
-# WireFrames
+# Overview
 ![ERD](/imgs/desktop.png)
 ![ERD](/imgs/phonescreen.png)
